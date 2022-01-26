@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "concurrently \"nuxt\" \"node ./index.js\"",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "start": "concurrently \"nuxt\" \"node ./index.js\"",
     "generate": "nuxt generate"
   },
   "dependencies": {
